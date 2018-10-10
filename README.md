@@ -1,4 +1,4 @@
-## create a database for local dev / testing
+## create a postgres database for local dev / testing
 
 `createdb ...`
 and update the credentials in `src/knexfile.js`
@@ -12,5 +12,5 @@ and update the credentials in `src/knexfile.js`
 `yarn test`
 
 ## run
-
-`yarn dev`
+`yarn`
+`yarn start`
